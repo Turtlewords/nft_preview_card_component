@@ -1,0 +1,47 @@
+:root {
+
+    /* Colors */
+
+    --white: #FFFFFF;
+    --black: #000000;
+    --blue-500: #8BACD9;
+    --blue-800: #2E405A;
+    --blue-900: #15263F;
+    --blue-950: #0D192C;
+    --cyan-400: #00FFF8;
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("fonts/Outfit-VariableFont_wght.ttf");
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--blue-950);
+}
+
+.container {
+    width: 90%;
+    background-color: var(--blue-900);
+}
+
+
+/* Images */
+
+img {
+    max-width: 100%;
+}
+
+.main__img {
+    border-radius: 10px;
+}
+
+
